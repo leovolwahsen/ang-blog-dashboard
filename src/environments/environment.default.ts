@@ -1,5 +1,5 @@
 export const defaultEnvironment = {
-    firebaseConfig: {
+    firebase: {
         apiKey: "AIzaSyDsGKUuoVaLhddVN1aPr66EnnNY1AoFwNo",
         authDomain: "angular-blog-c2e8e.firebaseapp.com",
         projectId: "angular-blog-c2e8e",
