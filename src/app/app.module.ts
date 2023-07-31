@@ -1,7 +1,7 @@
 import { NgModule } from '@angular/core';
 import { BrowserModule } from '@angular/platform-browser';
 // import { list } from '@angular/fire/database';
-import { environment } from "../environments/environment.prod"
+import { environment } from "../environments/environment.development"
 import { AngularFireModule } from '@angular/fire/compat'
 import { AngularFireDatabaseModule } from '@angular/fire/compat/database';
 
