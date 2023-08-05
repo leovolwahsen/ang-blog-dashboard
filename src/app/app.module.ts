@@ -11,13 +11,15 @@ import { HeaderComponent } from './layouts/header/header.component';
 import { FooterComponent } from './layouts/footer/footer.component';
 import { DashboardComponent } from './dashboard/dashboard.component';
 import { AngularFireAuthModule } from '@angular/fire/compat/auth';
+import { CatgoriesComponent } from './catgories/catgories.component';
 
 @NgModule({
   declarations: [
     AppComponent,
     HeaderComponent,
     FooterComponent,
-    DashboardComponent
+    DashboardComponent,
+    CatgoriesComponent
   ],
   imports: [
     BrowserModule,
