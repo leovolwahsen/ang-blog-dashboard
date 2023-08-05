@@ -4,7 +4,7 @@ import { BrowserModule } from '@angular/platform-browser';
 import { environment } from "../environments/environment.development"
 import { AngularFireModule } from '@angular/fire/compat'
 import { AngularFireDatabaseModule } from '@angular/fire/compat/database';
-
+import { FormsModule } from '@angular/forms';
 import { AppRoutingModule } from './app-routing.module';
 import { AppComponent } from './app.component';
 import { HeaderComponent } from './layouts/header/header.component';
@@ -26,7 +26,8 @@ import { CatgoriesComponent } from './catgories/catgories.component';
     AppRoutingModule,
     AngularFireModule.initializeApp(environment.firebase),
     AngularFireDatabaseModule,
-    AngularFireAuthModule
+    AngularFireAuthModule,
+    FormsModule
     
   ],
   providers: [],
